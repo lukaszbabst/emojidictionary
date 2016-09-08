@@ -12,6 +12,7 @@
 		FD757A7D1D7E1B5A0046FD6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD757A7B1D7E1B5A0046FD6C /* Main.storyboard */; };
 		FD757A7F1D7E1B5A0046FD6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD757A7E1D7E1B5A0046FD6C /* Assets.xcassets */; };
 		FD757A821D7E1B5A0046FD6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD757A801D7E1B5A0046FD6C /* LaunchScreen.storyboard */; };
+		FDA4F5621D818CEF0026E9CD /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4F5611D818CEF0026E9CD /* DefinitionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FD757A7E1D7E1B5A0046FD6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD757A811D7E1B5A0046FD6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD757A831D7E1B5A0046FD6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDA4F5611D818CEF0026E9CD /* DefinitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				FD757A771D7E1B5A0046FD6C /* AppDelegate.swift */,
 				FD757A791D7E1B5A0046FD6C /* ViewController.swift */,
 				FD757A7B1D7E1B5A0046FD6C /* Main.storyboard */,
+				FDA4F5611D818CEF0026E9CD /* DefinitionViewController.swift */,
 				FD757A7E1D7E1B5A0046FD6C /* Assets.xcassets */,
 				FD757A801D7E1B5A0046FD6C /* LaunchScreen.storyboard */,
 				FD757A831D7E1B5A0046FD6C /* Info.plist */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD757A7A1D7E1B5A0046FD6C /* ViewController.swift in Sources */,
+				FDA4F5621D818CEF0026E9CD /* DefinitionViewController.swift in Sources */,
 				FD757A781D7E1B5A0046FD6C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +303,7 @@
 				FD757A881D7E1B5A0046FD6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
